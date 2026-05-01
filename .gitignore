@@ -1,0 +1,28 @@
+# Root
+.env
+*.log
+coverage/
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/package-lock.json
+backend/.DS_Store
+
+# Frontend
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/package-lock.json
+frontend/.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
